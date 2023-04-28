@@ -1,0 +1,29 @@
+body {
+  font-family: "Varela Round", sans-serif;
+}
+
+.container {
+  border-radius: 25px;
+  margin: 10% auto 0;
+  padding: 15px;
+  width: 900px;
+  height: 600px;
+  box-shadow: 0px 0px 10px #14205f80;
+}
+
+.title > h1 {
+  text-align: center;
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  padding: 5px;
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #060d30d0;
+}
